@@ -1,0 +1,31 @@
+
+  .btn {
+    width: 100px;
+    height: 50px;
+  }
+ 
+
+ .donate-btn{
+    background-color: rgba(255, 255, 0, 0.944);
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    box-shadow: 0 0 inset ;
+    border-radius: 30px;
+    transition: ease-in 0.3s;
+    outline-color: white;
+    border: none;
+    color: rgb(20, 1, 94);
+ }
+ .donate-btn:hover {
+    /* box-shadow: 1px 1px 50px white inset; */
+    border: solid rgba(255, 255, 0, 0.945) 5px;
+    background-color: white;
+    transform: scale(1.1);
+    
+  }
+  
+
+
+  
+  

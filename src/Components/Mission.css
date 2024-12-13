@@ -1,0 +1,87 @@
+/* Styles for the aim objective section */
+.aim-objective-section {
+  background-color: #f4f4f4;
+  padding: 100px 0 30px 0;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the section title */
+.aim-objective-section .section-title {
+  font-size: 35px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Styles for the aim cards container */
+.aim-objective-section .aim-objective-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin: 0 auto; /* Remove top margin to keep title centered */
+}
+
+/* Styles for individual aim cards */
+.aim-objective-section .aim-objective-item {
+  width: 300px; /* Adjusted width for larger cards */
+  height: 200px; /* Adjusted height for smaller cards */
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  transition: ease-out 0.4s;
+  cursor: pointer; /* Add pointer cursor */
+}
+
+/* Hover effect for aim cards */
+.aim-objective-section .aim-objective-item:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 30px 10px rgb(131, 131, 135);
+}
+
+/* Styles for the aim card image */
+.aim-objective-section .aim-card-img {
+  width: 200px; /* Size of the image */
+  height: 200px; /* Size of the image */
+}
+
+.aim-objective-section .aim-card-img img {
+  width: 100%; /* Make sure the image fills the container */
+  height: 100%; /* Make sure the image fills the container */
+}
+
+/* Styles for the aim card heading */
+.aim-objective-section .aim-card-heading {
+  padding: 10px 10px;
+}
+
+/* Styles for the aim card detail */
+.aim-objective-section .aim-card-detail {
+  padding-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 992px) {
+  .aim-objective-section .aim-objective-container {
+    width: 80%; /* Adjusted width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aim-objective-section .aim-objective-item {
+    width: 250px; /* Adjusted width for smaller screens */
+    height: 250px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aim-objective-section .aim-objective-container {
+    width: 90%; /* Adjusted width for extra-small screens */
+  }
+}
